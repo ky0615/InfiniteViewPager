@@ -10,7 +10,7 @@ With a normal ViewPager, you can only scroll from the first page to second page 
 Use the `InfiniteViewPager` in your Activity/Fragment layout:
 	
 ``` xml
-<com.antonyt.infiniteviewpager.InfiniteViewPager
+<ws.temp.infiniteviewpager.InfiniteViewPager
 	android:id="@+id/pager"
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent" />
@@ -42,7 +42,7 @@ Then, to use the library in your project add the following to your `build.gradle
 
 ```groovy
 dependencies {
-    compile 'com.antonyt.infiniteviewpager:library:1.0.0'
+    compile 'ky0615:android-infiniteviewpager:2.0.1'
 }
 ```
 

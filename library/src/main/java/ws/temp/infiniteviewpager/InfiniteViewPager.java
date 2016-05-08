@@ -1,4 +1,4 @@
-package com.antonyt.infiniteviewpager;
+package ws.temp.infiniteviewpager;
 
 
 import android.content.Context;
