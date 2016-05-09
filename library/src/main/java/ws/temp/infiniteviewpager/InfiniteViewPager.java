@@ -58,6 +58,10 @@ public class InfiniteViewPager extends ViewPager {
         }
     }
 
+    public int getRealCurrentItem(){
+        return super.getCurrentItem();
+    }
+
     private int getOffsetAmount() {
         if (getAdapter().getCount() == 0) {
             return 0;
