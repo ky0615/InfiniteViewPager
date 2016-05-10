@@ -43,6 +43,10 @@ public class InfiniteViewPager extends ViewPager {
         super.setCurrentItem(item, smoothScroll);
     }
 
+    public void setRealCurrentItem(int item, boolean smoothScroll) {
+        super.setCurrentItem(item, smoothScroll);
+    }
+
     @Override
     public int getCurrentItem() {
         if (getAdapter().getCount() == 0) {
